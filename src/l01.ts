@@ -16,6 +16,7 @@ type PersonType = {
     age: number;
 }
 const person: PersonType = { name: 'John', age: 25 };
+const people: Array<PersonType> = [{ name: 'John', age: 25 }, { name: 'Jane', age: 30 }];
 
 console.log("a: number = ", a);
 console.log("b: string = ", b);
@@ -28,3 +29,4 @@ console.log("h: object = ", h);
 console.log("i: null = ", i);
 console.log("j: undefined = ", j);
 console.log("person: PersonType = ", person);
+console.log("people: Array<PersonType> = ", people);
