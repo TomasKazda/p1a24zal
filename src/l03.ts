@@ -19,27 +19,6 @@ console.log(`e = ${a} na ${b} = `, e); //125
 let f: number = Math.pow(a, b); //5 na 3
 console.log(`f = Math.pow(${a}, ${b}) = `, f); //125
 
-//kombinování přiřazení a aritmetických operátorů
-console.log(`a = `, a); //5
-a += b; //a = a + b
-console.log(`a += ${b} = `, a); //8
-a -= b; //a = a - b
-console.log(`a -= ${b} = `, a); //5
-a *= b; //a = a * b
-console.log(`a *= ${b} = `, a); //15
-a /= b; //a = a / b
-console.log(`a /= ${b} = `, a); //5
-a **= b; //a = a ** b
-console.log(`a **= ${b} = `, a); //125
-a %= b; //a = a % b
-console.log(`a %= ${b} = `, a); //2
-
-a += 2; //a = a + 2
-a += 1; //a = a + 1
-a++; //a = a + 1 není to stejné jako a += 1
-++a; //a = a + 1 není to stejné jako a += 1
-
-
 //druhá odmocnina znak Math.sqrt()
 let g: number = Math.sqrt(25); //odmocnina z 25
 console.log(`g = Math.sqrt(25) = `, g); //5
@@ -62,6 +41,21 @@ a = b; //a = 3
 console.log(`a = `, a); //3
 // 3 = a; //chyba
 //SyntaxError: Invalid left-hand side in assignment
+
+//kombinování přiřazení a aritmetických operátorů
+console.log(`a = `, a); //5
+a += b; //a = a + b
+console.log(`a += ${b} = `, a); //8
+a -= b; //a = a - b
+console.log(`a -= ${b} = `, a); //5
+a *= b; //a = a * b
+console.log(`a *= ${b} = `, a); //15
+a /= b; //a = a / b
+console.log(`a /= ${b} = `, a); //5
+a **= b; //a = a ** b
+console.log(`a **= ${b} = `, a); //125
+a %= b; //a = a % b
+console.log(`a %= ${b} = `, a); //2
 
 //relační operátory
 
