@@ -20,6 +20,7 @@ let f: number = Math.pow(a, b); //5 na 3
 console.log(`f = Math.pow(${a}, ${b}) = `, f); //125
 
 //kombinování přiřazení a aritmetických operátorů
+console.log(`a = `, a); //5
 a += b; //a = a + b
 console.log(`a += ${b} = `, a); //8
 a -= b; //a = a - b
@@ -44,9 +45,9 @@ let g: number = Math.sqrt(25); //odmocnina z 25
 console.log(`g = Math.sqrt(25) = `, g); //5
 
 //n-tá odmocnina znak Math.pow()
-let n: number = 3;
-let h: number = Math.pow(27, 1/n); //n-tá odmocnina z 25
-console.log(`h = Math.pow(27, 1/${n}) = `, h); //2.924017738212866
+let nn: number = 3;
+let h: number = Math.pow(27, 1/nn); //n-tá odmocnina z 25
+console.log(`h = Math.pow(27, 1/${nn}) = `, h); //2.924017738212866
 
 //absolutní hodnota znak Math.abs()
 let i: number = -5;
