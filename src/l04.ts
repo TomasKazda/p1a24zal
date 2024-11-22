@@ -6,6 +6,20 @@ let v: number = 3;
 let w: number = u > v ? u : v; //u > v ? u : v
 console.log(`w = ${u} > ${v} ? ${u} : ${v} = `, w); //5
 
+function isButtonPressed(button: number): boolean {
+    return button === 1; //tohle nemá smysl, ale pro ukázku ternárního operátoru to zde musíme vytvořit
+}
+
+//klasické if-else
+if (isButtonPressed(1)) {
+    console.log(`result = `, 'Stisknuto');
+} else {   
+    console.log(`result = `, 'Nestisknuto');
+}
+
+//náhrada ternárním operátorem
+console.log(`result = `, isButtonPressed(1) ? "Stisknuto" : "Nestisknuto"); //Stisknuto
+
 //inkrementace a dekrementace
 let a: number = 5;
 a++; //není to stejné jako a = a + 1 nebo a += 1
