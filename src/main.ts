@@ -5,4 +5,4 @@ import './style.css'
 //a odkomentujte daný import
 
 // import './l00'
-import './catchmynumber'
+import './l05'
